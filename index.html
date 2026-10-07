@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Mind | Desenvolvimento de Software</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#inicio">
+                    <img src="assets/img/logo-minddev.png" alt="Logo Mind Dev.">
+                </a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#precos">Preços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="inicio" class="inicio main-bg section">
+        <div class="main-content inicio-content">
+            <div class="inicio-text-content">
+                <h2>Transformamos ideias em experiências digitais.</h2>
+                <p>Desenvolvemos soluções web modernas para empresas
+                    que querem crescer no ambiente digital.</p>
+            </div>
+            <div class="inicio-img">
+                <img src="assets/img/dev-software.svg" alt="Sistema de desenvolvimento de software.">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="white-bg section">
+        <div class="main-content sobre-content">
+            <h2>Quem somos</h2>
+            <p>A Dev Mind é uma software house que transforma ideias em soluções digitais.</p>
+            <p>Criamos sites, sistemas e aplicações sob medida para empresas que buscam melhorar seus processos e
+                oferecer experiências melhores aos seus clientes.</p>
+            <p>Nosso objetivo é unir tecnologia, criatividade e simplicidade para desenvolver soluções eficientes,
+                modernas e que realmente façam sentido para cada negócio.</p>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos main-bg section">
+        <div class=" main-content servicos-content">
+            <h2 class="servicos-main-heading">Nossos serviços</h2>
+            <p class="servicos-description">Sempre em constante evolução, oferecemos soluções personalizadas para
+                atender às necessidades específicas de cada cliente.</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Desenvolvemos sites e aplicações web modernas e responsivas, utilizando tecnologias atuais para
+                        garantir uma excelente experiência do usuário.</p>
+                </article>
+                <article>
+                    <h3>Consultoria em Tecnologia</h3>
+                    <p>Oferecemos consultoria especializada para ajudar sua empresa a alinhar sua estratégia tecnológica
+                        com seus objetivos de negócios.</p>
+                </article>
+                <article>
+                    <h3>Manutenção de Sistemas</h3>
+                    <p>Oferecemos serviços de manutenção preventiva e corretiva para garantir o bom funcionamento dos
+                        seus sistemas.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="servicos white-bg section">
+        <div class=" main-content servicos-content">
+            <h2 class="servicos-main-heading">Projetos</h2>
+            <p class="servicos-description">Confira alguns dos nossos projetos recentes.</p>
+            <div class="grid">
+                <div class="projetos-img">
+                    <img src="assets/img/projetos/projeto-01.jpg" alt="Projeto 01" />
+                </div>
+                <div class="projetos-img">
+                    <img src="assets/img/projetos/projeto-02.jpg" alt="Projeto 02" />
+                </div>
+                <div class="projetos-img">
+                    <img src="assets/img/projetos/projeto-03.jpg" alt="Projeto 03" />
+                </div>
+                <div class="projetos-img">
+                    <img src="assets/img/projetos/projeto-04.jpg" alt="Projeto 04" />
+                </div>
+                <div class="projetos-img">
+                    <img src="assets/img/projetos/projeto-05.jpg" alt="Projeto 05" />
+                </div>
+                <div class="projetos-img">
+                    <img src="assets/img/projetos/projeto-06.jpg" alt="Projeto 06" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="precos" class="white-bg section">
+        <div class="main-content sobre-content">
+            <h2>Preços</h2>
+            <p>Confira nossos planos e preços para os serviços de desenvolvimento de software.</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Planos e Preços</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Plano</th>
+                            <th>Recursos</th>
+                            <th>Preço</th>
+                            <th>Suporte</th>
+                            <th>Garantia</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Plano Básico</td>
+                            <td>Recursos Básicos</td>
+                            <td>R$ 99,90/mês</td>
+                            <td>Suporte por e-mail</td>
+                            <td>30 dias</td>
+                        </tr>
+                        <tr>
+                            <td>Plano Premium</td>
+                            <td>Recursos Premium</td>
+                            <td>R$ 199,90/mês</td>
+                            <td>Suporte por e-mail e telefone</td>
+                            <td>60 dias</td>
+                        </tr>
+                        <tr>
+                            <td>Plano Empresarial</td>
+                            <td>Recursos Empresariais</td>
+                            <td>R$ 299,90/mês</td>
+                            <td>Suporte 24/7</td>
+                            <td>90 dias</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Valores meramente ilustrativos.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class=" inicio main-bg section">
+        <div class="main-content inicio-content">
+            <div class="inicio-text-content">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco preenchendo o formulário ao lado.</p>
+            </div>
+            <div class="inicio-img">
+                <img src="assets/img/contato.svg" alt="Ilustração de contato">
+            </div>
+            <form class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Envie uma mensagem</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class=" footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="mailto:l.brugnago@hotmail.com">Feito com ❤️ por
+                Lucas Brugnago</a></p>
+        <div class="footer-socials">
+            <a rel="nofollow" target="_blank" href="https://www.github.com/lbrugnagodamaia/"><img
+                    src="assets/img/github.svg" alt="GitHub"></a>
+            <a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/lucasbrugnagodamaia/"><img
+                    src="assets/img/linkedin.svg" alt="LinkedIn"></a>
+        </div>
+        <p class="footer-copyright">&copy; 2026 Lucas Brugnago. Todos os direitos reservados.</p>
+    </footer>
+
+    <a href="#inicio" class="back-to-top" title="Back to top">⬆</a>
+</body>
+
+</html>
