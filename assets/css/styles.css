@@ -1,6 +1,5 @@
 .inicio-content {
     position: relative;
-    /*top: -8rem;*/
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -24,7 +23,6 @@
 .sobre-content {
     max-width: 70rem;
     display: flex;
-    /*flex-flow: column wrap;*/
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
@@ -198,7 +196,7 @@
 }
 
 @media (max-width: 800px) {
-
+    
     .inicio-content,
     .grid {
         grid-template-columns: 1fr;

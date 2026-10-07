@@ -35,6 +35,9 @@ h2 {
     margin-bottom: 5rem;
     text-transform: uppercase;
     line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 h3 {
